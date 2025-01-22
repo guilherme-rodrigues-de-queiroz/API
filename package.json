@@ -4,9 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vercel dev",
-    "build": "prisma generate"
+    "dev": "node api/server.js"
   },
   "dependencies": {
     "@prisma/client": "^6.2.1",
