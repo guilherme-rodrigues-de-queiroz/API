@@ -5,7 +5,6 @@ import cors from 'cors'
 const prisma = new PrismaClient()
 const app = express()
 app.use(express.json())
-// app.use(cors())
 
 app.use(cors({
     origin: 'https://cadastro-usuarios-kappa.vercel.app'
