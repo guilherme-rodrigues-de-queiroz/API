@@ -4,7 +4,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.js"
+    "dev": "node src/server.js",
+    "vercel-build": "npx prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^6.2.1",
